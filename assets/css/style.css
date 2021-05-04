@@ -529,7 +529,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #2f3a3e;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -545,6 +545,8 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
+  text-align: center;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
@@ -569,21 +571,32 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: rgb(32, 28, 28);
   font-size: 28px;
-  text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  text-align: left;
+  background: rgba(202, 213, 218, 0.95);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
+}
+
+.portfolio .portfolio-wrap .portfolio-links p {
+  color: rgb(32, 28, 28);
+  font-size: 20px;
+  text-align: left;
+  padding: 0 5px 0 5px;
+  background: rgba(202, 213, 218, 0.496);
+  transition: 0.3s;
+  width: 100%;
+  margin-bottom: 0;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(202, 213, 218, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+/* .portfolio .portfolio-wrap .portfolio-links {
   border-left: 1px solid #37b3ed;
-}
+} */
 
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
