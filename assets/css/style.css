@@ -583,7 +583,7 @@ section {
   color: rgb(32, 28, 28);
   font-size: 20px;
   text-align: left;
-  padding: 0 5px 0 5px;
+  padding: 5px 5px 5px 10px;
   background: rgba(202, 213, 218, 0.496);
   transition: 0.3s;
   width: 100%;
