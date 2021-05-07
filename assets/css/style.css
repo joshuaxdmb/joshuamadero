@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: rgba(5, 13, 24, 0.3); top center;
   background-size: cover;
 }
 
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  position: relative;
+  position: absolute;
   z-index: 2;
   min-width: 300px;
 }
@@ -401,7 +401,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -547,7 +547,7 @@ section {
   content: "";
   text-align: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.575);
   position: absolute;
   left: 0;
   right: 0;
@@ -825,10 +825,9 @@ section {
 }
 
 .contact .info {
-  padding: 30px;
+  padding: 10px;
   background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact .info i {
@@ -1084,4 +1083,26 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  min-width: 300px;
+  object-fit: cover;
+}
+
+/* Add some content at the bottom of the video/page */
+#myVideo.content {
+  bottom: 0;
+  object-fit: cover;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100vw;
+  
 }
