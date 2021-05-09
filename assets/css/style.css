@@ -437,6 +437,16 @@ section {
   background-color: #149ddd;
 }
 
+.skills-icon{
+  height: 90px;
+  width:auto;
+  padding-bottom: 5px;
+}
+
+.note{
+  font-size: 14px;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -498,6 +508,16 @@ section {
   border: 2px solid #1f5297;
 }
 
+.interest-div {
+  text-align: center;
+  justify-content: center;
+}
+
+.interest-icon {
+  height: 50px;
+  width:auto;
+  padding-bottom: 5px;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -562,7 +582,7 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -80px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -583,7 +603,7 @@ section {
   color: rgb(32, 28, 28);
   font-size: 20px;
   text-align: left;
-  padding: 5px 5px 5px 10px;
+  padding: 5px 5px 5px 5px;
   background: rgba(202, 213, 218, 0.496);
   transition: 0.3s;
   width: 100%;
@@ -619,6 +639,10 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider video {
   width: 100%;
 }
 
