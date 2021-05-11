@@ -438,9 +438,13 @@ section {
 }
 
 .skills-icon{
-  height: 90px;
-  width:90px;
+  height: 85px;
+  width:95px;
+  min-width: 85px;
   padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align:center;
 }
 
 .note{
