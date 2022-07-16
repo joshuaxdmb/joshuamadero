@@ -1,0 +1,17 @@
+.container{
+    margin:auto;
+    padding-top:2%;
+    padding-bottom: 2%;
+    text-align: center ;
+}
+
+body{
+    background-color: #011F3F;
+}
+
+h1{
+    font-size: 3rem;
+    color:white;
+    text-align:center;
+    font-family: "Raleway", sans-serif;
+}
