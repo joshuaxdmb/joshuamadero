@@ -2,14 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Simon Game by Joshua</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/icon_website.png" rel="icon">
@@ -30,7 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="simongame/styles.css" rel="stylesheet">
+   <link href="taskapp/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.1.0
@@ -40,7 +38,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body id="sinventory-body">
 
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -63,13 +61,13 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i>
-            <span>Home</span></a></li>
-        <li><a href="sinventory.html" class="nav-link scrollto"><i class="bx bx-package"></i> 
-            <span>Sinventory</span></a></li>
-        <li><a href="simongame.html" class="nav-link scrollto"><i class="bx bx-dice-4"></i>
-            <span>Simon Game</span></a></li>
-        <li><a href="taskapp.html" class="nav-link scrollto"><i class="bx bx-task"></i>
-            <span>Task App</span></a></li>
+              <span>Home</span></a></li>
+          <li><a href="sinventory.html" class="nav-link scrollto"><i class="bx bx-package"></i> 
+              <span>Sinventory</span></a></li>
+          <li><a href="simongame.html" class="nav-link scrollto"><i class="bx bx-dice-4"></i>
+              <span>Simon Game</span></a></li>
+          <li><a href="taskapp.html" class="nav-link scrollto"><i class="bx bx-task"></i>
+              <span>Task App</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -82,7 +80,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 class="app-title">Simon Game</h2>
+          <h2 class="app-title">4-Quadrant Task App</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
             <li>Software Portfolio</li>
@@ -93,57 +91,44 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="simongame">
-      <h1 id="level-title">Press Any Key to Start</h1>
-      <div class="fluid-container ">
-        <div class="row justify-content-center">
-          <div type="button" id="green" class="btncolor green"></div>
-
-          <div type="button" id="red" class="btncolor red"></div>
+      <div id="heroku-taskapp-container" class="d-flex col-lg-12 col-md-12">
+       <iframe src="https://madero-task-manager.herokuapp.com/personal" title="Task App" id="heroku-taskapp"></iframe>
+      </div>
+      <div class="soft-container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>Description:</h2>
+          </div>
+          <div class="col-lg-9">
+            <p style="text-align:left">
+              This app was inspired by the book 7 Habits of Highly Effective People, which recommends organizing
+              our tasks based on their importance and their urgency. I used this app to practice and show how to deploy a
+              NodeJs app on Heroku. This app uses MongoDB Atlas- other apps use Firebase. I embedded the app into the website so you can test it, feel free to add tasks
+              and check them off to delete them. Note that you won't be able to delete the sample items.
+            </p>
+          </div>
         </div>
-
-        <div class="row justify-content-center">
-          <div type="button" id="yellow" class="btncolor yellow"></div>
-          <div type="button" id="blue" class="btncolor blue"></div>
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>Languages:</h2>
+          </div>
+          <div class="col-lg-9">
+            <p style="text-align:left">
+              NodeJS, HTML, CSS
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>Platforms:</h2>
+          </div>
+          <div class="col-lg-9">
+            <p style="text-align:left">
+              Web, Heroku, MongoDB Atlas
+            </p>
+          </div>
         </div>
       </div>
-      <button id="start-button">
-        <h1 id="start-button-text">START</h1>
-      </button>
-    </section>
-    <div class="soft-container">
-      <div class="row">
-        <div class="col-lg-3">
-          <h2>Description:</h2>
-        </div>
-        <div class="col-lg-9">
-          <p style="text-align:left">
-            The Simon Game is a classic computer game. It was the perfect practice to learn some basic web JavaScript,
-            HTML, and CSS.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3">
-          <h2>Languages:</h2>
-        </div>
-        <div class="col-lg-9">
-          <p style="text-align:left">
-            JavaScript, HTML, CSS
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3">
-          <h2>Platforms:</h2>
-        </div>
-        <div class="col-lg-9">
-          <p style="text-align:left">
-            Web
-          </p>
-        </div>
-      </div>
-    </div>
 
     <!-- End Portfolio Details Section -->
 
@@ -174,8 +159,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="simongame/simongame.js"></script>
 
 
 
