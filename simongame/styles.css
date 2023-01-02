@@ -1,6 +1,11 @@
+#simongame{
+  background-color: #011F3F;
+  padding-bottom: 60px;
+  padding-top:0;
+}
+
 body {
   text-align: center;
-  background-color: #011F3F;
 }
 
 #start-button{

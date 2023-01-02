@@ -21,7 +21,7 @@ $('.btncolor').on('click',(event)=>{ //On any button click
     })
 
 makesSound = (id) =>{ //Make a sound based on the button id
-    var sound = new Audio('sounds/'+id+'.mp3')
+    var sound = new Audio('simongame/sounds/'+id+'.mp3')
     sound.play();
 }
 
