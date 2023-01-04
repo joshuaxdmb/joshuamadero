@@ -446,7 +446,9 @@ section {
 }
 
 .skills-icon-container{
-  display:grid
+  display:grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .note{
