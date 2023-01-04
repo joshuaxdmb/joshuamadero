@@ -2,12 +2,9 @@
   background-color: #011F3F;
   padding-bottom: 60px;
   padding-top:0;
-}
-
-
-body {
   text-align: center;
 }
+
 
 #start-button{
   color:#011F3F;
@@ -30,12 +27,12 @@ body {
   color: #FEF2BF;
 }
 
-.fluid-container {
+/* .fluid-container {
   display: block;
   width: 50%;
   margin: auto;
 
-}
+} */
 
 .btncolor {
   margin: 25px;
