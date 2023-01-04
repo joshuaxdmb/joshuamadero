@@ -439,11 +439,14 @@ section {
 
 .skills-icon{
   height: 85px;
-  width:95px;
-  min-width: 85px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  min-width:85px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.skills-icon-container{
+  display:grid
 }
 
 .note{
