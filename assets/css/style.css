@@ -1174,10 +1174,29 @@ Software sections
   padding-bottom: 2%;
 }
 
-#sinventory-video-cont{
+#video-cont{
   background-color: black;
   padding-top: 2%;
   text-align: center;
   padding-bottom: 2%;
 }
+#img-sw-content{
+  background-color: black;
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 1%;
+}
 
+.prop-slider-img{
+  height: 600px;
+}
+
+.prop-slider-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#prop-slide-wrap{
+  height: 600px;
+}

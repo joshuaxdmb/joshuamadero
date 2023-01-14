@@ -8,13 +8,9 @@
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
-    <!-- Icons -->
+    <!-- Favicons -->
     <link href="assets/img/icon_website.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
 
     <!-- Google Fonts -->
     <link
@@ -38,6 +34,10 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -99,16 +99,17 @@
             </li>
             <li>
               <a href="taskapp.html" class="nav-link scrollto"
-                ><i class="bx bx-task"></i> <span>4-Quadrants Task Manager</span></a
+                ><i class="bx bx-task"></i>
+                <span>4-Quadrants Task Manager</span></a
               >
             </li>
             <li>
-              <a href="instaplace.html" class="nav-link scrollto active"
+              <a href="instaplace.html" class="nav-link scrollto"
                 ><i class="bx bx-landscape"></i> <span>Instaplace</span></a
               >
             </li>
             <li>
-              <a href="prop.html" class="nav-link scrollto"
+              <a href="prop.html" class="nav-link scrollto active"
                 ><i class="fa-solid fa-plane"></i>
                 <span>Propeller Design Generator</span></a
               >
@@ -125,8 +126,8 @@
       <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
-            <div class="portfolio-page-title"><h2 class="app-title">Instaplace</h2>
-              <a href="https://github.com/joshuaxdmb/instaplace" class="github-logo bx bxl-github" target="_blank"></a>
+            <div class="portfolio-page-title">
+              <h2 class="app-title">Propeller Design Generator</h2>
             </div>
             <ol>
               <li><a href="index.html">Home</a></li>
@@ -138,12 +139,28 @@
       <!-- End Breadcrumbs -->
 
       <!-- ======= Portfolio Details Section ======= -->
-      <div id="video-cont" class="col-lg-12 col-md-12">
-        <iframe
-          class="embed-responsive-item video-container"
-          height="500"
-          src="instaplace/video/instaplace_demo.mp4"
-        ></iframe>
+      <div id="prop-slider" class="col-lg-12 col-md-12 img-sw-content">
+        <div class="portfolio-details-slider swiper-container">
+          <div id="prop-slide-wrap" class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide prop-slider-cont">
+              <img src="assets/img/portfolio/prop-code-output.PNG" alt="" class="prop-slider-img">
+            </div>
+
+            <div class="swiper-slide prop-slider-cont">
+              <img src="assets/img/portfolio/prop-assembly.jpg" alt="" class="prop-slider-img">
+            </div>
+
+            <div class="swiper-slide prop-slider-cont">
+              <img src="assets/img/portfolio/sanding-blade.jpg" alt="" class="prop-slider-img">
+            </div>
+            <div class="swiper-slide prop-slider-cont">
+              <video src="assets/img/portfolio/prop_test.mp4" autoplay muted loop style="height:600px">
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
       <div class="soft-container">
         <div class="row">
@@ -152,14 +169,14 @@
           </div>
           <div class="col-lg-9">
             <p style="text-align: left">
-              This app was another personal project that I used to learn to
-              setup the structure of a social media platform. The app has most
-              of the functionalities of Instagram with one slight twist: it
-              only allow you to post pictures with your current location. The
-              intention is to use the platform as a travel journal. <br><br>This app
-              involved a heavier use of Xcode to setup iOS location, camera, and
-              media library permissions, as well as to setup the icons and
-              splash screens for the app.
+                My team is developing a human-powered aircraft to compete for the Kremer International Marathon Prize, and I designed our propeller. 
+                I learned propeller design theory and coded a command line program using
+                Python. The output is the 3D-model of a propeller blade that is the most suitable for the expected flight conditions.<br><br>
+                
+                The  program communicates with Xfoil and Xrotor (two aerodynamic analysis programs) to iteratively design the propeller.
+                I was able to reduce computation time by a factor of 4 by using Python multi-core processing libraries.<br><br>
+                
+                The design tool was tested by prototyping a propeller. The results were satisfactory.<br><br> 
             </p>
           </div>
         </div>
@@ -168,7 +185,7 @@
             <h2>Languages:</h2>
           </div>
           <div class="col-lg-9">
-            <p style="text-align: left">JavaScript (React Native)</p>
+            <p style="text-align: left">Python</p>
           </div>
         </div>
         <div class="row">
@@ -176,7 +193,7 @@
             <h2>Platforms:</h2>
           </div>
           <div class="col-lg-9">
-            <p style="text-align: left">iOS</p>
+            <p style="text-align: left">Command Line</p>
           </div>
         </div>
         <div class="row">
@@ -184,7 +201,7 @@
             <h2>Tools:</h2>
           </div>
           <div class="col-lg-9">
-            <p style="text-align: left">Firebase, Expo, Xcode</p>
+            <p style="text-align: left">Python Multiprocessing</p>
           </div>
         </div>
       </div>
