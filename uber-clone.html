@@ -4,13 +4,17 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+    <title>Portfolio Details</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
-    <!-- Favicons -->
+    <!-- Icons -->
     <link href="assets/img/icon_website.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
 
     <!-- Google Fonts -->
     <link
@@ -34,23 +38,13 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: iPortfolio - v3.1.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <link href="taskapp/style.css" rel="stylesheet" />
   </head>
 
-  <body id="sinventory-body">
+  <body>
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -80,7 +74,7 @@
               >
             </li>
             <li>
-              <a href="uber-clone.html" class="nav-link scrollto"
+              <a href="uber-clone.html" class="nav-link scrollto active"
                 ><i class="bx bx-map-alt"></i>
                 <span>Uber Clone</span></a
               >
@@ -107,7 +101,7 @@
               >
             </li>
             <li>
-              <a href="prop.html" class="nav-link scrollto active"
+              <a href="prop.html" class="nav-link scrollto"
                 ><i class="fa-solid fa-plane"></i>
                 <span>Propeller Design Generator</span></a
               >
@@ -126,7 +120,12 @@
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
             <div class="portfolio-page-title">
-              <h2 class="app-title">Propeller Design Generator</h2>
+              <h2 class="app-title">Complete Ecommerce Website</h2>
+              <a
+                href="https://github.com/joshuaxdmb/ecommerceTorontoTech/tree/pagewithcart"
+                class="github-logo bx bxl-github"
+                target="_blank"
+              ></a>
             </div>
             <ol>
               <li><a href="index.html">Home</a></li>
@@ -138,28 +137,17 @@
       <!-- End Breadcrumbs -->
 
       <!-- ======= Portfolio Details Section ======= -->
-      <div id="prop-slider" class="col-lg-12 col-md-12 img-sw-content">
-        <div class="portfolio-details-slider swiper-container">
-          <div id="prop-slide-wrap" class="swiper-wrapper align-items-center">
-
-            <div class="swiper-slide prop-slider-cont">
-              <img src="assets/img/portfolio/prop-code-output.PNG" alt="" class="prop-slider-img">
-            </div>
-
-            <div class="swiper-slide prop-slider-cont">
-              <img src="assets/img/portfolio/prop-assembly.jpg" alt="" class="prop-slider-img">
-            </div>
-
-            <div class="swiper-slide prop-slider-cont">
-              <img src="assets/img/portfolio/sanding-blade.jpg" alt="" class="prop-slider-img">
-            </div>
-            <div class="swiper-slide prop-slider-cont">
-              <video src="assets/img/portfolio/prop_test.mp4" autoplay muted loop style="height:600px">
-            </div>
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+      <div id="heroku-taskapp-container" class="d-flex col-lg-12 col-md-12">
+        <iframe
+          height="100%"
+          width="100%"
+          src="https://www.youtube.com/embed/OohtfdApbs8"
+          title="Uber Clone Demo Video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          className="d-flex"
+        ></iframe>
       </div>
       <div class="soft-container">
         <div class="row">
@@ -168,14 +156,12 @@
           </div>
           <div class="col-lg-9">
             <p style="text-align: left">
-                My team is developing a human-powered aircraft to compete for the Kremer International Marathon Prize, and I designed our propeller. 
-                I learned propeller design theory and coded a command line program using
-                Python. The output is the 3D-model of a propeller blade that is the most suitable for the expected flight conditions.<br><br>
-                
-                The  program communicates with Xfoil and Xrotor (two aerodynamic analysis programs) to iteratively design the propeller.
-                I was able to reduce computation time by a factor of 4 by using Python multi-core processing libraries.<br><br>
-                
-                The design tool was tested by prototyping a propeller. The results were satisfactory.<br><br> 
+              This project allowed me to combine TypeScript and React Native for the first time. There are many YouTube videos showing how to make
+              Uber clones but none of them use TypeScript, so I thought this could be something interesting to explore and share with other people.
+              I was also curious about the Google Maps APIs, and this was the perfect project to try them out<br /><br />I wrote this project in TypeScript
+              using Expo to build it and test it. I used Google Directions API, Distance Matrix API, and Places API to allow the user to search for
+              locations and calculate distances and travel times.<br><br>
+              I made extensive use of the Expo MapView library, as well as React hooks, navigation, and Redux to manage the state of the application.
             </p>
           </div>
         </div>
@@ -184,7 +170,15 @@
             <h2>Languages:</h2>
           </div>
           <div class="col-lg-9">
-            <p style="text-align: left">Python</p>
+            <p style="text-align: left">TypeScript</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>Frameworks:</h2>
+          </div>
+          <div class="col-lg-9">
+            <p style="text-align: left">React Native, Expo</p>
           </div>
         </div>
         <div class="row">
@@ -192,7 +186,7 @@
             <h2>Platforms:</h2>
           </div>
           <div class="col-lg-9">
-            <p style="text-align: left">Command Line</p>
+            <p style="text-align: left">iOS Simulator</p>
           </div>
         </div>
         <div class="row">
@@ -200,7 +194,7 @@
             <h2>Tools:</h2>
           </div>
           <div class="col-lg-9">
-            <p style="text-align: left">Python Multiprocessing</p>
+            <p style="text-align: left">Google Directions API, Distance Matrix API, Places API</p>
           </div>
         </div>
       </div>
