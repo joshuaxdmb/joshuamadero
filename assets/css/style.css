@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 36px;
   display: inline-block;
   background: #212431;
   color: #fff;
@@ -109,8 +109,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 52px;
+  height: 52px;
   transition: 0.3s;
 }
 
@@ -439,11 +439,16 @@ section {
 
 .skills-icon{
   height: 85px;
-  width:95px;
-  min-width: 85px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  min-width:85px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.skills-icon-container{
+  display:grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .note{
@@ -528,6 +533,18 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio-page-title{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.github-logo{
+  margin-left: 10px;
+  font-size: 30px;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1136,4 +1153,50 @@ section {
   color: #f1f1f1;
   width: 100vw;
   
+}
+
+.app-title{
+  margin-bottom: 0.2rem;
+}
+
+/******
+Software sections
+*****/
+
+/*Sinventory*/
+
+.soft-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-top: 2%;
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+
+#video-cont{
+  background-color: black;
+  padding-top: 2%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+#img-sw-content{
+  background-color: black;
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.prop-slider-img{
+  height: 600px;
+}
+
+.prop-slider-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#prop-slide-wrap{
+  height: 600px;
 }

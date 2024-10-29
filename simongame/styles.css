@@ -1,7 +1,10 @@
-body {
-  text-align: center;
+#simongame{
   background-color: #011F3F;
+  padding-bottom: 60px;
+  padding-top:10px;
+  text-align: center;
 }
+
 
 #start-button{
   color:#011F3F;
@@ -24,12 +27,12 @@ body {
   color: #FEF2BF;
 }
 
-.fluid-container {
+/* .fluid-container {
   display: block;
-  width: 40%;
+  width: 50%;
   margin: auto;
 
-}
+} */
 
 .btncolor {
   margin: 25px;
@@ -60,4 +63,6 @@ body {
 .yellow {
   background-color: yellow;
 }
-
+.title-description{
+  margin-right: 1px;
+}

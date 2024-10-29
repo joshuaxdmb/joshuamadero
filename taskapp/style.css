@@ -1,0 +1,12 @@
+#heroku-taskapp {
+  flex: 1;
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+}
+
+#heroku-taskapp-container {
+  background-color: black;
+  text-align: center;
+  height: 700px;
+}
